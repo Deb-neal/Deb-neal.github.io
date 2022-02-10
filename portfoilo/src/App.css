@@ -181,6 +181,8 @@ ul {
 
 .services {
   position: relative;
+  width: 150px;
+  height: 100px;
   z-index: 0;
   margin-bottom: 70px;
   padding: 1.5em;
@@ -350,6 +352,7 @@ ul {
   padding: 20px;
   display: block;
   position: relative;
+  width: 100%;
   height: 300px;
 }
 
@@ -372,10 +375,6 @@ ul {
   opacity: 1;
 }
 
-.project:hover .desc span {
-  transform: translate3d(0, 0, 0);
-}
-
 .project .desc .con span {
   display: block;
   color: rgba(255, 255, 255, 0.7);
@@ -388,6 +387,32 @@ ul {
 
 .project .desc h3 a {
   color: #fff;
+}
+
+.project .desc .con .icon {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.project .desc .con .icon span {
+  display: inline;
+  padding-right: 5px;
+}
+
+.project .desc .con .icon span a {
+  color: #333333;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
+a {
+  color: #2c98f0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 h1,
@@ -420,12 +445,6 @@ h3 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-}
-
-a {
-  color: #2c98f0;
-  -o-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .project .desc h3 {

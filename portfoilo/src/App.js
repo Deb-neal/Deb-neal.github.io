@@ -25,9 +25,7 @@ function App() {
             <div id="navbar" class="collapse">
               <ul>
                 <li class="active">
-                  <a href="#" data-nav-section="home">
-                    Home
-                  </a>
+                  <a data-nav-section="home">Home</a>
                 </li>
                 <li>
                   <a data-nav-section="about">About</a>
@@ -334,7 +332,6 @@ function App() {
                             <a
                               data-toggle="collapse"
                               data-parent="#accordion"
-                              href="#collapseOne"
                               aria-expanded="false"
                               aria-controls="collapseOne"
                               class="collapsed"
@@ -369,7 +366,6 @@ function App() {
                               class="collapsed"
                               data-toggle="collapse"
                               data-parent="#accordion"
-                              href="#collapseTwo"
                               aria-expanded="false"
                               aria-controls="collapseTwo"
                             >
@@ -434,71 +430,7 @@ function App() {
               <div
                 class="row row-bottom-padded-sm animate-box fadeInLeft animated"
                 data-animate-effect="fadeInLeft"
-              >
-                <div class="col-md-12">
-                  <section>
-                    <p class="work-menu">
-                      <span>
-                        <strong>개인 프로젝트</strong>
-                      </span>
-                      <span>
-                        <strong>팀 프로젝트</strong>
-                      </span>
-                      <span>
-                        <strong>기능 학습</strong>
-                      </span>
-                      <span>
-                        <strong>Business</strong>
-                      </span>
-                    </p>
-                  </section>
-                  <p class="work-menu">
-                    <span>
-                      <strong>
-                        <a
-                          href="http://www.jangcar.co.kr"
-                          target="_blank"
-                          class="active"
-                        >
-                          개인 프로젝트
-                        </a>
-                      </strong>
-                    </span>{" "}
-                    <span>
-                      <strong>
-                        <a
-                          href="https://www.personalconnect.co.kr"
-                          target="_blank"
-                          class="active"
-                        >
-                          팀 프로젝트
-                        </a>
-                      </strong>
-                    </span>
-                    <span>
-                      <strong>
-                        <a
-                          href="http://www.riceplanner.com"
-                          target="_blank"
-                          class="active"
-                        >
-                          청춘정미소
-                        </a>
-                      </strong>
-                    </span>{" "}
-                    <span>
-                      <strong>Web Project</strong>
-                    </span>{" "}
-                    <span>
-                      {" "}
-                      <a href="#">Software</a>
-                    </span>{" "}
-                    <span>
-                      <a href="#">Apps</a>
-                    </span>
-                  </p>
-                </div>
-              </div>
+              ></div>
 
               <div
                 class="animate-box fadeInUp animated"
@@ -516,36 +448,36 @@ function App() {
                     <div class="desc">
                       <div class="con">
                         <h3>
-                          <a href="http://www.jangcar.co.kr" target="_blank">
-                            장거리카풀은 장카!(2019.06~)
+                          <a href="http://b-log.ml" target="_blank">
+                            프로젝트: 디지털과 아날로그 감성을 잇는 독서
+                            기록서비스 (B-log) (2021.11.04 - 2021.11.18)
                           </a>
                         </h3>
                         <span>
-                          장거리 카풀 서비스. 현재 단거리 카풀의 경우 굉장히
-                          활성화되고 있습니다. 하지만 장거리 카풀의 경우 가장
-                          활발하게 이루어지고 있는 것이 밴드입니다. 밴드에서
-                          이루어지다 보니 실제로 사람들이 확인하고 이용하는 데
-                          굉장히 큰 불편을 겪고 있습니다. 따라서 사람들이 코레일
-                          앱 혹은 버스 앱처럼 쉽게 본인의 출발지와 목적지, 날짜
-                          등을 필터리해서 운전자와 연결해주는 서비스입니다.
+                          독서 기록 서비스. 어릴적 책을 읽던 시절이 지금에는
+                          E-BOOK 형태로 변하게 되었습니다. 책장에 꽂힌 책들을
+                          보며 무슨 책을 읽었는지 확인하던 그때의 감성을
+                          E-BOOK은 느끼지 못합니다. 그렇기 때문에 이 웹페이지는
+                          그런 감상을 느낄수있도록 E-BOOK 독서 기록 서비스를
+                          제공합니다.
                         </span>
                         <p class="icon">
                           <span>
-                            <a href="#">
-                              <i class="icon-share3"></i>
-                            </a>
-                          </span>
-                          <span>
-                            <a href="http://www.jangcar.co.kr" target="_blank">
-                              <i class="icon-eye"></i> detail
+                            <a
+                              href="https://github.com/codestates/B-log"
+                              target="_blank"
+                            >
+                              <i class="icon-eye"></i>{" "}
+                              <strong>Project Github</strong>
                             </a>
                           </span>
                           <span>
                             <a
-                              href="https://deaguowl.github.io/pdf/jangcar.pdf"
+                              href="https://youtu.be/1y59VDkCj08"
                               target="_blank"
                             >
-                              <i class="icon-data"></i> 구현 기능 상세보기
+                              <i class="icon-data"></i>{" "}
+                              <strong>구현 기능 상세보기</strong>
                             </a>
                           </span>
                         </p>
@@ -564,33 +496,27 @@ function App() {
                       <div class="con">
                         <h3>
                           <a href="http://studeaming.com/" target="_blank">
-                            Connect(2019.05~)
+                            프로젝트명: 누구나 쉽게 Study with me, 공부 스트리밍
+                            플랫폼 Studeaming (2021.11.20 - 2021.12.21)
                           </a>
                         </h3>
                         <span>
-                          개인 인맥 관리플랫폼. 살아가면서 굉장히 많은 사람들을
-                          만나고, 그리고 그 시기마다 정말 소중한 사람들이
-                          있습니다. 하지만 바쁜 생활 속에서 한 해, 두 해
-                          연락하지 않게 되면 그 소중한 인연의 끈이 없어지게
-                          되어버립니다. 우리는 매일 스마트폰을 보지만 정작
-                          소중한 사람들에게 연락은 하지 않습니다. 인맥 관리의
-                          가장 기본은 바로 "정기적인 연락"입니다. Connect를 통해
-                          매일 연락해야 할 인맥들을 확인하고, 커멘트를
-                          남겨놓으면 또 일정 기간 이후 연락해야 될 때에
-                          알려줍니다.{" "}
+                          코로나 시국에 접어들게 되면서 다같이 모여 공부를
+                          하거나, 스터디를 할수없는 시대가 되었습니다.
+                          그러다보니 Study with me라는 트렌트가 유투브에서
+                          유행을 하게되었고, 그런 트렌드에 맞춰
+                          기획하게되었습니다. 유투브의 단점을 보완하고자 해당
+                          기능인 스트리밍, 공부에만 충실할수있도록 만든
+                          서비스입니다.
                         </span>
                         <p class="icon">
-                          <span>
-                            <a href="#">
-                              <i class="icon-share3"></i>
-                            </a>
-                          </span>
                           <span>
                             <a
                               href="http://www.personalconnect.co.kr"
                               target="_blank"
                             >
-                              <i class="icon-eye"></i> detail
+                              <i class="icon-eye"></i>{" "}
+                              <strong>Project Github</strong>
                             </a>
                           </span>
                           <span>
@@ -598,7 +524,8 @@ function App() {
                               href="https://deaguowl.github.io/pdf/connect.pdf"
                               target="_blank"
                             >
-                              <i class="icon-data"></i> 구현 기능 상세보기
+                              <i class="icon-data"></i>{" "}
+                              <strong>구현 기능 상세보기</strong>
                             </a>
                           </span>
                         </p>
@@ -611,11 +538,7 @@ function App() {
               <div class="row">
                 <div class="col-md-12 animate-box fadeInUp animated">
                   <p>
-                    <a
-                      href="#"
-                      onclick="return false;"
-                      class="btn btn-primary btn-lg btn-load-more"
-                    >
+                    <a class="btn btn-primary btn-lg btn-load-more">
                       {" "}
                       앞으로 더 많은 프로젝트가 추가될 예정입니다:)
                     </a>
