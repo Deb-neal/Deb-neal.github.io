@@ -16,6 +16,10 @@ h6 {
   margin: 0 0 30px 0;
 }
 
+.hire h3 {
+  font-size: 20px;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -200,6 +204,12 @@ ul {
   margin: 0 0 30px 0;
 }
 
+.progress {
+  background: #d6d7d8;
+  width: 100%;
+  border-radius: 8px;
+}
+
 .progress-bar.color-1 {
   background: #2c98f0;
   width: 60%;
@@ -216,12 +226,12 @@ ul {
 }
 
 .progress-bar.color-6 {
-  background: #ad10d4;
+  background: #bd6ed1;
   width: 60%;
 }
 
 .progress-bar.color-7 {
-  background: #da1862;
+  background: #d66a93;
   width: 60%;
 }
 
