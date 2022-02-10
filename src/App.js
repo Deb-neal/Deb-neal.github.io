@@ -34,10 +34,10 @@ function App() {
                   <a data-nav-section="skills">Teck Skills</a>
                 </li>
                 <li>
-                  <a data-nav-section="work">Project</a>
+                  <a data-nav-section="work">Education</a>
                 </li>
                 <li>
-                  <a data-nav-section="education">Education</a>
+                  <a data-nav-section="education">Project</a>
                 </li>
                 <li>
                   <a data-nav-section="contact">Contact</a>
