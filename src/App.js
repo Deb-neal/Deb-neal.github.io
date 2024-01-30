@@ -19,7 +19,7 @@ function App() {
           <div class="text center">
             <img src={picture1} class="author-img"></img>
             <h1 id="colorlib-logo">Min su Ann</h1>
-            <span class="position">Server development</span>
+            <span class="position">2년차 Server development</span>
           </div>
           <nav id="colorlib-main-menu" role="navigation" class="navbar">
             <div id="navbar" class="collapse">
